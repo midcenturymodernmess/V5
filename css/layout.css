@@ -59,6 +59,8 @@
   }
   #intro-mobile .regular{ font-family:var(--font-display); font-weight:400; }
   #intro-mobile .italic { font-family:var(--font-display-italic); font-weight:400; }
+  #intro-mobile .italic-condensed{ font-family:var(--font-display-italic-condensed); font-weight:400; }
+
 
   #intro-mobile .intro .regular:first-child{
     font-weight: 700;
