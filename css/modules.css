@@ -497,16 +497,17 @@
 
 /* Mobile-only: make the text AFTER the "JAMIE MARS" logo smaller */
 @media (max-width: 1199px){
-  /* If you used <span id="brandFxMobile">… */
   #intro-mobile .intro #brandFxMobile ~ .regular,
   #intro-mobile .intro #brandFxMobile ~ .italic,
-  /* If you used <span class="brandFx-inline">… */
+  #intro-mobile .intro #brandFxMobile ~ .italic-condensed,
   #intro-mobile .intro .brandFx-inline ~ .regular,
-  #intro-mobile .intro .brandFx-inline ~ .italic{
-    font-size: 0.90em;     /* tweak: try 0.85–0.95em to taste */
-    line-height: 1.25;     /* keeps it tidy at smaller size */
+  #intro-mobile .intro .brandFx-inline ~ .italic,
+  #intro-mobile .intro .brandFx-inline ~ .italic-condensed{
+    font-size: 0.90em;
+    line-height: 1.25;
   }
 }
+
 
 /* Mobile: align "Catalogue" with categories by baseline + slight size bump */
 @media (max-width: 767px){
