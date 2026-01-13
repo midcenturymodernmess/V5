@@ -18,8 +18,8 @@ html, body{
   font-weight: 400; font-style: normal; font-display: swap;
 }
 @font-face{
-  font-family: "Junicode Italic";
-  src: url("../fonts/junicode-italic.woff2") format("woff2");
+  font-family: "Junicode Italic Condensed";
+  src: url("../fonts/junicode-italiccondensed.woff2") format("woff2");
   font-weight: 400; font-style: italic; font-display: swap;
 }
 
@@ -44,6 +44,8 @@ html, body{
   --font-body: "Roboto Mono", monospace, var(--font-fallback);
   --font-body-italic: "Roboto Mono", monospace; /* keep italic face mapping */
   --font-body-weight: 300;                       /* Light */
+  --font-display-italic-condensed: "Junicode Italic Condensed", var(--font-fallback);
+
 }
 
 /* 🧾 Base Type */
