@@ -532,6 +532,7 @@
   clip:rect(0 0 0 0) !important;
   clip-path:inset(50%) !important;
   border:0 !important; white-space:nowrap !important;
+mix-blend-mode: multiply;
 }
 
 /* Mobile/Tablet: show inline brand video, hide duplicate text,
